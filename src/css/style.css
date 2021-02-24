@@ -1,0 +1,268 @@
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* header */
+header{
+    width: 100%;
+    position: relative;
+    height: 0.54rem;
+    background: #dfe0e2;
+   
+}
+header form{
+    display: flex;
+    width: 3.46rem;
+    height: 0.44rem;
+    /* border: 1px solid #2180df; */
+    position: absolute;
+    left: 0.13rem;
+    top: 0.05rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form input{
+    width: 2.8rem;
+    height: 0.44rem;
+    border-radius: 0.24rem;
+    outline: none;
+    border: none;
+    background:#fff url(../images/sousuo_03.jpg)no-repeat 0.83rem center;
+    background-size: 0.15rem 0.15rem;
+    text-indent: 1.08rem;
+}
+form span{
+    color: #2e2e2e;
+    font-size: 0.23rem !important
+}
+
+
+/* 主体内容 */
+main{
+    width: 100%;
+    flex:1;
+    background: #fff;
+    overflow: auto;
+}
+/* *****nav */
+nav{
+    width: 100%;
+    height: 1.71rem;
+    /* background: palegreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+main #banner{
+    width:3.46rem;
+    height: 1.34rem;
+    /* border-radius: 0.12rem; */
+    
+}
+main .swiper-slide img{
+    width:3.46rem;
+    height: 1.34rem; 
+    border-radius: 0.08rem
+}
+main #navigation{
+    width: 3.46rem;
+    height: 0.8rem;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.1rem;
+    /* border-bottom: 1px solid #ccc */
+}
+main #navigation img{
+    width: 0.53rem;
+    height: 0.53rem;
+}
+main #navigation p{
+    height: 0.02rem;
+    font-size: 0.01rem;
+    color: #222;
+    text-align: center;
+    /* line-height: 0.02rem */
+}
+main #recommend{
+    width: 100%;
+    height: 2.1rem;
+    padding-left: 0.14rem
+    /* background:palegreen; */
+    
+}
+main #recommend .top-recommend{
+    width: 3.46rem;
+    height: 0.3rem;
+    /* background: palegoldenrod; */
+    line-height: 0.3rem;
+    padding-bottom: 0.15rem
+    
+}
+main #recommend .left{
+     float: left;
+    width: 1.07rem;
+    height: 0.25rem;
+    margin-left: 0.1rem;
+   font-weight: bold;
+}
+main #recommend .right{
+    float: right;
+    border: 1px solid #e6e6e6;
+    margin-top: 0.05rem;
+    width: 0.5rem;
+    height: 0.2rem;
+    font-size: 0.08rem;
+    text-align: center;
+    margin-right: 0.1rem;
+    line-height: 0.2rem;
+    border-radius: 0.17rem;
+}
+main #recommend .box-recommend{
+    width: 3.46rem;
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 0.2rem; */
+    /* align-items: center; */
+    overflow: auto;
+}
+main #recommend .bottom-recommend{
+    width: 1rem;
+    height: 1.5rem;
+    /* float: left; */
+    margin-right: 0.06rem;
+}
+.bottom-recommend p{
+    width: 1rem;
+    font-size: 0.15rem;
+    margin-top: 0.07rem;
+}
+main #recommend img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.13rem
+}
+#content{
+    width: 100%;
+    height: 3rem;
+    background: #dfe0e2;
+    padding-top: 0.1rem;
+   
+}
+#content .top-content{
+    width: 100%;
+    height: 3.8rem;
+    padding-left: 0.2rem;
+    border-radius: 0.1rem;
+    background: #fff
+}
+#content .top-content .tittle{
+    width: 100%;
+    height: 0.2rem;
+    color: #b3b3b3;
+    font-size: 0.15rem;
+}
+#content .top-content .tittle-content{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem
+}
+.tittle-content .left{
+    width: 2.5rem;
+    /* height: 0.3rem; */
+    color: #333;
+    font-size: 0.25rem;
+    float: left;
+
+}
+.tittle-content .right{
+    float: right;
+    width: 0.6rem;
+    height: 0.3rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.2rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #323232;
+    font-size: 0.16rem;
+    margin-top: 0.1rem;
+    margin-right: 0.3rem
+}
+#content .box-content{
+    height: 0.88rem;
+    /* border-bottom: 1px solid #e6e6e6; */
+}
+#content .box-content img{
+    width: 0.7rem;
+    height: 0.7rem;
+    float: left;
+    border-radius: 0.15rem
+}
+#content .box-content .middle-content{
+    width: 2.6rem;
+    border-bottom: 1px solid #f3f3f3;
+    float: left;
+    margin-left: 0.1rem;
+}
+#content .box-content .middle-content .top{
+    height: 0.25rem;
+    font-size: 0.17rem;
+    color: #333;
+    margin:0.06rem 0;
+}
+.box-content .middle-content .top span{
+    font-size: 0.12rem;
+    color:#999;
+   
+}
+#content .box-content .middle-content .bottom{
+    height: 0.16rem;
+    font-size: 0.15rem;
+    color: #808080;
+    margin-bottom: 0.15rem
+}
+/* aside */
+/* aside{
+    width: 100%;
+    height: 0.45rem;
+    background: #2180df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid #ccc ;
+    box-sizing: border-box;
+} */
+/* footer */
+footer{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    /* background: palevioletred; */
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+footer div:hover,footer div:focus{
+    color: #fe3a3b;
+    background: #fff;
+}
+footer div p{
+    /* color: #b3b3b3; */
+    font-size: 0.1rem
+}

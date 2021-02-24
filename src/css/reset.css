@@ -1,0 +1,25 @@
+/* 清除默认间距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 清除b、strong的默认样式 */
+b,strong{
+    font-weight: normal;
+}
+/* 清除i,em默认样式 */
+ i,em{
+     font-style: normal;
+ }
+ /* 清除a,u标签的默认下滑线 */
+ a,u{
+     text-decoration: none;
+ }
+ /* 清除列表默认样式符号 */
+ ul,li{
+     list-style: none;
+ }
+ /* 解决行内块元素基线对齐问题 */
+ img,input{
+     vertical-align: middle;
+ }
